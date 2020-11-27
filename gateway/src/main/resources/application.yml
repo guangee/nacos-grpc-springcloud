@@ -8,5 +8,6 @@ spring:
     nacos:
       discovery:
         server-addr: yunji.guanweiming.com:8848
+
   application:
     name: gateway
