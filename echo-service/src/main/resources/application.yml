@@ -1,0 +1,12 @@
+grpc:
+  server:
+    port: 0
+server:
+  port: 7777
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: yunji.guanweiming.com:8848
+  application:
+    name: echo-service
